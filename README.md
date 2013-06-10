@@ -1,7 +1,7 @@
 p5template
 ==========
 
-This is my set for templates to start to code in Processing.
+This is my template sets to start to code in Processing.
 
 Templates
 -----
