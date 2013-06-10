@@ -18,13 +18,7 @@ float www = 100;
 float hhh = 100;
 
 // on / off
-boolean colored = false;
-
-// for cp5
-String[][] cpRadioButtons = {
-    {"ON", "false"},
-    {"OFF", "true"}
-};
+boolean on = false;
 
 String[][] cpSliders = {
     {"bgAlpha","0","255"},
@@ -61,7 +55,7 @@ void draw() {
     // hhh = hhh + random(-5, 5);
 
     // on / off
-    if (colored){
+    if (on){
         stroke(drawColor2);        
     } else {
         stroke(drawColor);
@@ -78,11 +72,11 @@ void draw() {
 
 void radioButton(int n) {
     if(n == 0) {
-        colored = true;
-        println("0!");
+        on = true;
+        // println("0!");
     }else {
-        colored = false;
-       println("1!");
+       on = false;
+       // println("1!");
     }
 }
 
