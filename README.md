@@ -22,3 +22,13 @@ Templates
 
   - Required Library:<br>
   Processing.js http://processingjs.org/
+
+* p5jQueryUITemplate - Processing.js and jQueryUI template 
+  - p5datgui.pde (main)<br>
+  - index.html<br>
+  - p5datgui.css<br>
+  - p5datgui.js<br>
+
+  - Required Library:<br>
+  Processing.js http://processingjs.org/
+  dat.GUI https://code.google.com/p/dat-gui/
