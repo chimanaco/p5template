@@ -1,11 +1,18 @@
 /*
 
 	author: chimanaco
-	original:
+
+	based on:
 	http://joseph-harrington.com/2012/03/controlling-processingjs-jqueryui/
 
 */
- 
+
+/* create an object to hold variables shared between sketch and jquery */
+var pvars = { 
+    lineLength:30, 
+    speed:0.1
+};
+
 $(function() {
 	// Set up jQuery UI sliders for each variable we want to control.
 	$("#sliderLineLength").slider({
