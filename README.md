@@ -14,16 +14,7 @@ Templates
   - Required Library:<br>
   processing GUI, controlP5 http://www.sojamo.de/libraries/controlP5/
 
-* p5jQueryUITemplate - Processing.js and jQueryUI template 
-  - p5jQueryUI.pde (main)<br>
-  - index.html<br>
-  - p5jQueryUI.css<br>
-  - p5jQueryUI.js<br>
-
-  - Required Library:<br>
-  Processing.js http://processingjs.org/
-
-* p5jQueryUITemplate - Processing.js and jQueryUI template 
+* p5datGUITemplate - Processing.js and dat.GUI template 
   - p5datgui.pde (main)<br>
   - index.html<br>
   - p5datgui.css<br>
@@ -32,3 +23,12 @@ Templates
   - Required Library:<br>
   Processing.js http://processingjs.org/
   dat.GUI https://code.google.com/p/dat-gui/
+
+* p5jQueryUITemplate - Processing.js and jQueryUI template 
+  - p5jQueryUI.pde (main)<br>
+  - index.html<br>
+  - p5jQueryUI.css<br>
+  - p5jQueryUI.js<br>
+
+  - Required Library:<br>
+  Processing.js http://processingjs.org/
